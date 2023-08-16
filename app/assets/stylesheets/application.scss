@@ -13,13 +13,15 @@
  *= require_tree .
  *= require_self
  */
- @import "bulma";
+@import "bulma";
 
- #message-display {
-    height: 80vh;
-    overflow: auto
-  }
+#message-display {
+  margin-left: 20px;
+  height: 80vh;
+  overflow: auto
+}
   
-  #message-input {
-    width: 60vw;
-  }
+#message-input {
+  margin-left: 20px;
+  width: 60vw;
+}
