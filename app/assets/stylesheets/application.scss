@@ -24,4 +24,13 @@
 #message-input {
   margin-left: 20px;
   width: 60vw;
+  border: 1px solid black;
+}
+
+.message-header {
+  background-color: black;
+}
+
+.message-body {
+  font-weight: 500;
 }
