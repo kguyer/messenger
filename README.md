@@ -14,7 +14,7 @@ The Ruby version is 3.2.2 and the Rails version is 7.0.6
 To view your system versions use `ruby -v` and `rails -v`
 
 ## Setup
-If you'd like to rub this app yourself follow these steps:
+If you'd like to run this app yourself follow these steps:
 1. Clone the repo `git clone https://github.com/kguyer/messenger`
 
 2. cd into the project `cd messenger` 
