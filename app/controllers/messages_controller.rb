@@ -4,9 +4,9 @@ class MessagesController < ApplicationController
     @message.save
     ActionCable.server.broadcast('message', @message.as_json(include: :user))
   end
-      
+
   private
-      
+
   def message_params
     params.require(:message).permit(:body)
   end
